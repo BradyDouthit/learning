@@ -7,7 +7,7 @@ import (
 	"strings"
 )
 
-var filename string = "data.txt"
+var filename string = "../data.txt"
 var topN int8 = 30
 
 type word struct {
