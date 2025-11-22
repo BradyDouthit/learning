@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 # Configuration
 IMG_SIZE = 224  # MobileNetV2 expects 224x224 images
 BATCH_SIZE = 4
-EPOCHS = 20
+EPOCHS = 10
 TRAIN_DIR = 'dataset/train'
 
 print("Loading dataset...")
