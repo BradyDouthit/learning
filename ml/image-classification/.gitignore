@@ -1,0 +1,67 @@
+# Virtual environments
+yolo-env/
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# YOLO / Ultralytics
+# Model weights (download on demand; can be large)
+*.pt
+*.onnx
+*.engine
+*.tflite
+*.mlmodel
+*.pb
+*.torchscript
+
+# Training/inference outputs
+runs/
+wandb/
+results/
+
+# Datasets (typically too large for git; track separately)
+datasets/
+data/raw/
+*.zip
+*.tar
+*.tar.gz
+
+# Image/video test data (uncomment if you don't want these tracked)
+# test_images/
+# *.jpg
+# *.jpeg
+# *.png
+# *.mp4
+# *.avi
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Environment variables / secrets
+.env
+.env.local
+*.key
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+logs/
